@@ -1,15 +1,17 @@
 
 import './App.css'
+import Navbar from './Componant/Navbar'
 
 function App() {
 
 
   return (
     <>
-    <h1>hi</h1>
-      <button className='btn btn-info'>HELLO</button>
+      <Navbar/>
     </>
-  )
+      
+  );
+  
 }
 
 export default App
