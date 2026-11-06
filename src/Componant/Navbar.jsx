@@ -1,7 +1,6 @@
 import './Style.css'
 import navlogo from '../assets/navlogo.png';
-import FindRide from './FindRide';
-import Offerride from "./Offerride";
+
 const Navbar = () =>{
 
     return(
@@ -57,7 +56,7 @@ const Navbar = () =>{
                           </li>
             
                           <li className="nav-item">
-                            <a className="nav-link" href="/about">
+                            <a className="nav-link" href="/aboutus">
                               About Us
                             </a>
                           </li>
@@ -75,12 +74,12 @@ const Navbar = () =>{
             
                             <ul className="dropdown-menu dropdown-menu-lg-end">
                               <li>
-                                <a className="dropdown-item" href="/contact">
+                                <a className="dropdown-item" href="/contactus">
                                   Contact Us
                                 </a>
                               </li>
                               <li>
-                                <a className="dropdown-item" href="/help">
+                                <a className="dropdown-item" href="/Helpsupport">
                                   Help & Support
                                 </a>
                               </li>

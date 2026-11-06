@@ -4,13 +4,16 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import heroimg from '../assets/car_route_illustration.png'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Navbar from './Navbar';
+import { Link } from 'react-router-dom'
+import FindRide  from './FindRide';
+import Offerride from './Offerride'
 
 
 const Home = () => {
   return (
 
     <div >
-        <Navbar/>
+      <Navbar />
       {/* **********Hero Section  */}
 
       <section className="d-flex flex-column flex-lg-row w-100 bg-body-secondary  p-md-5 ">
@@ -33,13 +36,13 @@ const Home = () => {
 
           <div className="d-flex flex-column flex-sm-row gap-2">
 
-            <button className="btn btn-success hero-btn">
+            <Link to="/FindRide" className="btn btn-success hero-btn">
               <b>Find a Commute</b>
-            </button>
+            </Link>
 
-            <button className="btn bg-white hero-btn-offer">
+            <Link to="/Offerride" className="btn bg-white hero-btn-offer">
               Offer a Ride
-            </button>
+            </Link>
 
           </div>
 
